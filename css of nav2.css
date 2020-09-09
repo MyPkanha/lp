@@ -1,0 +1,67 @@
+		body {
+			padding: 0px;
+			margin: 0px;
+		}
+
+
+		.left {
+			width: 85%;
+			height: 120px;
+			background-color:white;
+			float: left;
+			color: black;
+			font-size: 75px;
+			text-align: center;
+		}
+		.right {
+			background-color:white;
+			width: 15%;
+			height: 110px;
+			float: left;
+			padding-top: 10px;
+		}
+
+		.btn {
+			font-size: 100px;
+			padding:20px;
+			color: black;
+			cursor: pointer;
+		}
+		#check {
+			display: none;
+		}
+
+		.ka {
+			position: fixed;
+			width: 100%;
+		}
+
+		ul {
+				position: fixed;
+				width: 82%;
+				height:70%;
+				background-color: rgba(0,0,0,1);
+				top: 110px;
+				left: -105%;
+				transition: all 2s;
+			}
+		#check:checked ~ ul{
+				left: 0;
+			}
+			ul {
+				list-style: none;
+			}
+
+			ul li a {
+				text-decoration: none;
+				color: white;
+			}
+			ul li {
+				text-align: center;
+			}
+			ul li:hover {
+				background-color: red;
+			}
+
+			/*css of bottom nav bar*/
+
